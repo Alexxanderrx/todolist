@@ -40,7 +40,7 @@
                 </thead>
                 <tbody class="">
                     @foreach ($tasks as $task)
-                        <tr class="flex justify-around w-full">
+                        <tr class="flex justify-between w-full">
                             <form action="/api/update/{{ $task->id }}" method="POST">
                                 <td>
                                     <button type="submit"
